@@ -5,7 +5,7 @@ class Button extends Component{
 
         return(
             <div>
-                <button class="calc-button">1</button>
+                <button className="calc-button" onClick={()=>this.props.symbol}></button>
             </div>
         )
     }
